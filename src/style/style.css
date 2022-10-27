@@ -138,7 +138,7 @@ hr {
 }
 
 .main-row1-col2 {
-  margin-left: auto;
+  margin-left: 1cm;
 
   margin-right: 1cm;
 }
@@ -149,4 +149,12 @@ hr {
 }
 .education-item-location {
   margin-bottom: 5px;
+}
+
+.title-career,
+.title-skills,
+.title-certifications {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
 }

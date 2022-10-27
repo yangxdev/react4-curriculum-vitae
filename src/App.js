@@ -178,9 +178,7 @@ function App() {
           <div className="main-row2-col1">
             <div className="work-experience">
               <div className="title-work-experience">WORK EXPERIENCE</div>
-              <div className="work-experience-hr">
-                <hr />
-              </div>
+              <hr />
               <div className="work-experience-content">
                 <WorkItem
                   title="Computer Science Student"
@@ -253,9 +251,7 @@ function App() {
           <div className="main-row1-col2">
             <div className="education">
               <div className="title-education">EDUCATION</div>
-              <div className="education-hr">
-                <hr />
-              </div>
+              <hr />
               <EducationItem
                 degree="Bachelor of Science"
                 field="Computer Science"
@@ -265,16 +261,52 @@ function App() {
                 courses={
                   <div>
                     <List bulleted>
-                      <List.Item>
-                        Programming Languages
-                      </List.Item>
-                      <List.Item>
-                        Databases
-                      </List.Item>
+                      <List.Item>Programming Languages</List.Item>
+                      <List.Item>Databases</List.Item>
+                      <List.Item>Networks and Operative Systems</List.Item>
+                      <List.Item>Mobile Devices Programming</List.Item>
+                      <List.Item>Algorithms and Data Structures</List.Item>
                     </List>
                   </div>
                 }
               />
+            </div>
+            <div className="career">
+              <div className="title-career">CAREER OBJECTIVE</div>
+              <hr />
+              <div className="career-content">
+                Soon-to-be Computer Science graduate eager to continue exploring
+                the field of Front-End Development. Looking to join a
+                development team to put my knowledge into practice.
+              </div>
+            </div>
+            <div className="skills">
+              <div className="title-skills">SKILLS</div>
+              <hr />
+              <div className="skills-content">
+                <List bulleted>
+                  <List.Item>JavaScript (React, Next)</List.Item>
+                  <List.Item>CSS</List.Item>
+                  <List.Item>HTML</List.Item>
+                  <List.Item>Java</List.Item>
+                </List>
+              </div>
+            </div>
+            <div className="certifications">
+              <div className="title-certifications">CERTIFICATIONS</div>
+              <hr />
+              <div className="certifications-content">
+                <List bulleted>
+                  <List.Item>
+                    OLS English:
+                    <span style={{ fontWeight: "bold" }}>C1</span>
+                  </List.Item>
+                  <List.Item>
+                    Open Badge Bbetween:
+                    <span style={{ fontWeight: "bold" }}>C1</span>
+                  </List.Item>
+                </List>
+              </div>
             </div>
           </div>
         </div>
