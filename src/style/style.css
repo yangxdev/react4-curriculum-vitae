@@ -10,6 +10,8 @@ a {
 }
 :root {
   --blue: rgb(66, 135, 245);
+  --darkblue: rgb(0, 46, 120);
+  --red: rgb(255, 0, 0);
   --margin: 1rem;
   /* --padding: 1rem; */
 }
@@ -60,7 +62,7 @@ a {
 }
 
 .links-container {
-  margin-top: 2.5mm;
+  margin-top: 3.5mm;
   margin-left: 10mm;
   width: 190mm;
   height: fit-content;
@@ -84,8 +86,8 @@ a {
 }
 
 .work-experience {
-  margin-top: 2.5mm;
-  margin-left: 10mm;
+  /* margin-top: 2.5mm; */
+  /* margin-left: 10mm; */
   /* width: 190mm; */
   /* border: solid black 1px; */
   width: 110mm;
@@ -105,13 +107,13 @@ a {
   display: flex;
 }
 .work-experience-item {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .work-experience-item-location {
   margin-left: 5px;
 }
 .work-experience-item-title {
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   margin-top: 5px;
   font-size: 20px;
   font-weight: 400;
@@ -150,11 +152,33 @@ hr {
 .education-item-location {
   margin-bottom: 5px;
 }
+.education-item-title {
+  font-size: 20px;
+}
 
 .title-career,
 .title-skills,
-.title-certifications {
+.title-certifications,
+.title-hobbies {
   margin-top: 20px;
   font-weight: 700;
   font-size: 20px;
+}
+
+.main-row2-col1 {
+  margin-left: 1cm;
+}
+
+.work-experience-item-company a, .education-item-school a {
+  color: var(--blue) !important;
+}
+.work-experience-item-company a:hover {
+  color: var(--darkblue) !important;
+}
+.education-item-school a:hover {
+  color: var(--darkblue) !important;
+}
+
+.link-location a:hover {
+  color: var(--blue) !important;
 }

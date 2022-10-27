@@ -5,9 +5,9 @@ import { List } from "semantic-ui-react";
 
 let linkedin_url = "https://www.linkedin.com/in/yngx";
 let github_url = "https://www.github.com/yangxdev";
+let instagram_url = "https://www.instagram.com/yang.xng/";
 let email = "j.xiang@campus.unimib.it";
 let phone = "+39 3342229699";
-let location_milan = "https://goo.gl/maps/BnxUdJmEbqowgU8f7";
 
 function print() {
   var print_div = document.getElementById("page");
@@ -36,7 +36,9 @@ function WorkItem(props) {
   return (
     <div className="work-experience-item">
       <div className="work-experience-item-title">{props.title}</div>
-      <div className="work-experience-item-company">{props.company}</div>
+      <div className="work-experience-item-company">
+        {<a href={props.link}>{props.company}</a>}
+      </div>
       <div className="row">
         <div className="work-experience-item-date df">
           <svg
@@ -53,7 +55,9 @@ function WorkItem(props) {
         </div>
         <div className="work-experience-item-location df">
           <Pointer />
-          <a className="link-location date">{props.location}</a>
+          <a className="link-location date">
+            {<a href={props.locationlink}>{props.location}</a>}
+          </a>
         </div>
       </div>
       <div className="work-experience-item-content">{props.description}</div>
@@ -65,7 +69,9 @@ function EducationItem(props) {
     <div className="education-item">
       <div className="education-item-title">{props.degree}</div>
       <div className="education-item-field">{props.field}</div>
-      <div className="education-item-school">{props.school}</div>
+      <div className="education-item-school">
+        {<a href={props.link}>{props.school}</a>}
+      </div>
       <div className="education-item-date df">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +87,9 @@ function EducationItem(props) {
       </div>
       <div className="education-item-location">
         <Pointer />
-        <a className="link-location date">{props.location}</a>
+        <a className="link-location date">
+          {<a href={props.locationlink}>{props.location}</a>}
+        </a>
       </div>
       <div className="education-item-courses">
         <div className="education-item-courses-title">Relevant courses</div>
@@ -100,19 +108,19 @@ function App() {
           <div className="title-job">Junior Front-End Developer</div>
           <div className="links-container">
             <div className="column1">
-              <div className="email df">
+              <div className="github df">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-envelope-fill"
+                  class="bi bi-github"
                   viewBox="0 0 16 16"
                 >
-                  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                 </svg>
-                <a href={"mailto:" + email} className="link-email link">
-                  j.xiang@campus.unimib.it
+                <a href={github_url} className="link-github link">
+                  github.com/yangxdev
                 </a>
               </div>
               <div className="linkedin df">
@@ -130,23 +138,38 @@ function App() {
                   linkedin.com/in/yngx
                 </a>
               </div>
-              <div className="github df">
+              <div className="instagram df">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-github"
+                  class="bi bi-instagram"
                   viewBox="0 0 16 16"
                 >
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                 </svg>
-                <a href={github_url} className="link-github link">
-                  github.com/yangxdev
+                <a href={instagram_url} className="link-instagram link">
+                  instagram.com/yang.xng
                 </a>
               </div>
             </div>
             <div className="column2">
+              <div className="email df">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-envelope-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                </svg>
+                <a href={"mailto:" + email} className="link-email link">
+                  j.xiang@campus.unimib.it
+                </a>
+              </div>
               <div className="number df">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -167,7 +190,10 @@ function App() {
               </div>
               <div className="location df">
                 <Pointer />
-                <a href={location_milan} className="link-location link">
+                <a
+                  href="https://www.google.com/maps/place/Milan,+Italy"
+                  className="link-location link"
+                >
                   Milan, MI
                 </a>
               </div>
@@ -183,7 +209,9 @@ function App() {
                 <WorkItem
                   title="Computer Science Student"
                   company="University of Milan - Bicocca"
+                  link="https://www.unimib.it/"
                   date="September 2020 - current"
+                  locationlink="https://www.google.com/maps/place/Milan,+Italy"
                   location="Milan, MI"
                   description={
                     <div>
@@ -199,7 +227,7 @@ function App() {
                         </List.Item>
                         <List.Item>
                           <span style={{ fontWeight: "bold" }}>
-                            Mobile Device Programming Project:{" "}
+                            Mobile Devices Programming Project:{" "}
                           </span>
                           Developed, managed and directed the front-end
                           development of an Android application in a team of 4
@@ -214,7 +242,9 @@ function App() {
                 <WorkItem
                   title="Waiter"
                   company="Bento Sushi"
+                  link="https://goo.gl/maps/gzsfJ9QELKVYoVqD6"
                   date="June 2019 - September 2020"
+                  locationlink="https://www.google.com/maps/place/Cattolica,+Italy"
                   location="Cattolica, RN"
                   description={
                     <div>
@@ -233,13 +263,73 @@ function App() {
                 <WorkItem
                   title="Developer Intern"
                   company="IPER.NET"
+                  link="https://www.iperbooking.com/"
                   date="May 2019 - June 2019"
+                  locationlink="https://www.google.com/maps/place/Rimini,+Italy"
                   location="Rimini, RN"
                   description={
                     <div>
                       <List bulleted>
                         <List.Item>
                           Website and database management of a Booking Engine.
+                        </List.Item>
+                      </List>
+                    </div>
+                  }
+                />
+              </div>
+            </div>
+            <div className="hobbies">
+              <div className="title-hobbies">HOBBIES</div>
+              <hr />
+              <div className="hobbies-content">
+                <WorkItem
+                  title="Front-End Developer"
+                  company="Frontend Mentor"
+                  link="https://www.frontendmentor.io/profile/yangxdev"
+                  date="April 2022 - current"
+                  locationlink="https://www.google.com/maps/place/Milan,+Italy"
+                  location="Rimini, RN & Milan, MI"
+                  description={
+                    <div>
+                      <List bulleted>
+                        <List.Item>
+                          Developed 10+ front-end projects starting with Vanilla
+                          JS, currently using React.
+                        </List.Item>
+                      </List>
+                    </div>
+                  }
+                />
+                <WorkItem
+                  title="Pianist"
+                  company="Instagram"
+                  link="https://www.instagram.com/yang.xng/"
+                  date="March 2021 - October 2021"
+                  locationlink="https://www.google.com/maps/place/Rimini,+Italy"
+                  location="Rimini, RN"
+                  description={
+                    <div>
+                      <List bulleted>
+                        <List.Item>
+                          Single handedly recorded studio-quality audio
+                          recordings and videos of myself playing the piano,
+                          using a DSLR camera.
+                        </List.Item>
+                        <List.Item>
+                          Extensive knowledge of audio and video recording and
+                          editing (Premiere Pro, After Effects, FL Studio,
+                          Ableton Live).
+                        </List.Item>
+                        <List.Item>
+                          Gathered 40000+ views and 8500+ likes over 20+ piano
+                          music videos, connecting with musicians and followers
+                          from all over the world.
+                        </List.Item>
+                        <List.Item>
+                          Made music video collabs with a Canadian pianist and
+                          violinist, with top-level English communication and
+                          online team-working skills.
                         </List.Item>
                       </List>
                     </div>
@@ -255,8 +345,10 @@ function App() {
               <EducationItem
                 degree="Bachelor of Science"
                 field="Computer Science"
+                link="https://www.unimib.it/"
                 school="University of Milan - Bicocca"
                 date="September 2020 - current"
+                locationlink="https://www.google.com/maps/place/Milan,+Italy"
                 location="Milan, MI"
                 courses={
                   <div>
@@ -285,7 +377,11 @@ function App() {
               <hr />
               <div className="skills-content">
                 <List bulleted>
-                  <List.Item>JavaScript (React, Next)</List.Item>
+                  <List.Item>
+                    <span style={{ fontWeight: "bold" }}>
+                      JavaScript (React, Next)
+                    </span>
+                  </List.Item>
                   <List.Item>CSS</List.Item>
                   <List.Item>HTML</List.Item>
                   <List.Item>Java</List.Item>
@@ -299,11 +395,11 @@ function App() {
                 <List bulleted>
                   <List.Item>
                     OLS English:
-                    <span style={{ fontWeight: "bold" }}>C1</span>
+                    <span style={{ fontWeight: "bold" }}> C1</span>
                   </List.Item>
                   <List.Item>
                     Open Badge Bbetween:
-                    <span style={{ fontWeight: "bold" }}>C1</span>
+                    <span style={{ fontWeight: "bold" }}> C1</span>
                   </List.Item>
                 </List>
               </div>
