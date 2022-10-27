@@ -34,11 +34,11 @@ a {
 }
 
 .page {
-  margin-top: 0.25cm;
-  margin-bottom: 0.25cm;
-  height: 297mm;
-  width: 210mm;
-  margin: var(--margin);
+  /* margin-top: 0.25cm; */
+  /* margin-bottom: 0.25cm; */
+  height: 29.7cm;
+  width: 21cm;
+  /* margin: var(--margin); */
   padding: var(--padding);
   /* border: solid 0.25px gray; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -91,7 +91,8 @@ a {
   width: 110mm;
   height: fit-content;
 }
-.title-work-experience {
+.title-work-experience,
+.title-education {
   margin-top: 20px;
   font-weight: 700;
   font-size: 20px;
@@ -115,7 +116,8 @@ a {
   font-size: 20px;
   font-weight: 400;
 }
-.work-experience-item-company {
+.work-experience-item-company,
+.education-item-school {
   margin-bottom: 5px;
   color: var(--blue);
   font-weight: 700;
@@ -126,7 +128,25 @@ a {
 }
 
 hr {
-  height: 2.5px;
+  height: 2.5px !important;
   border: 0;
   background-color: black;
+}
+
+.main-row2 {
+  display: flex;
+}
+
+.main-row1-col2 {
+  margin-left: auto;
+
+  margin-right: 1cm;
+}
+
+.education-item-courses-title {
+  font-weight: 600;
+  margin-bottom: 2.5px;
+}
+.education-item-location {
+  margin-bottom: 5px;
 }
