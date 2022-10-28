@@ -207,6 +207,7 @@ function App() {
                   <a
                     href="https://www.google.com/maps/place/Milan,+Italy"
                     className="link-location link"
+                    target="_blank" rel="noreferrer"
                   >
                     Milan, MI
                   </a>
