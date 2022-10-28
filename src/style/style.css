@@ -53,7 +53,8 @@ a {
   display: flex;
   text-align: center;
   align-items: center;
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 27pt;
   height: 40px;
   font-weight: 700;
 }
@@ -62,7 +63,8 @@ a {
   font-size: 20px;
   color: var(--blue);
   font-weight: 700;
-  font-size: 25px;
+  /* font-size: 25px; */
+  font-size: 18pt;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -78,7 +80,8 @@ a {
 .link {
   text-decoration: none;
   color: black;
-  font-size: 12.5px;
+  /* font-size: 12.5px; */
+  font-size: 9pt;
   vertical-align: middle;
   margin-left: 5px;
 }
@@ -100,15 +103,10 @@ a {
   width: 110mm;
   height: fit-content;
 }
-.title-work-experience,
-.title-education {
-  margin-top: 20px;
-  font-weight: 700;
-  font-size: 20px;
-}
 .date {
   margin-left: 5px;
-  font-size: 12.5px;
+  /* font-size: 12.5px; */
+  font-size: 9pt;
 }
 .row {
   display: flex;
@@ -120,19 +118,19 @@ a {
   margin-left: 5px;
 }
 .work-experience-item-title {
-  /* margin-bottom: 5px; */
   margin-top: 5px;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 12pt;
+  /* font-weight: 400; */
+  font-weight: 600;
 }
 .work-experience-item-company,
 .education-item-school {
-  margin-bottom: 5px;
   color: var(--blue);
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 10pt;
 }
 .work-experience-item-content {
-  font-size: 12.5px;
+  /* font-size: 9pt; */
   font-weight: 500;
 }
 
@@ -160,18 +158,31 @@ hr {
 .education-item-courses-title {
   font-weight: 600;
   margin-bottom: 2.5px;
+  font-size: 9pt;
 }
 .education-item-title {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 12pt;
+  font-weight: 600;
 }
-
+.education-item-field {
+  font-size: 10pt;
+  font-weight: 500;
+}
+.title-work-experience,
+.title-education,
 .title-career,
 .title-skills,
 .title-certifications,
 .title-hobbies {
   margin-top: 20px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18pt;
+}
+.career-content {
+  text-align: justify;
+  font-size: 10pt;
+  font-weight: 500;
 }
 
 .main-row2-col1 {
@@ -220,7 +231,8 @@ hr {
 .main-row1-col2 {
   width: 300px;
 }
-.linktreeqr, .demositeqr {
+.linktreeqr,
+.demositeqr {
   width: 100px;
   height: 100px;
   opacity: 50%;
@@ -230,18 +242,21 @@ hr {
 .demositeqr {
   width: 97px;
 }
-.linktreeqr-title, .demositeqr-title {
+.linktreeqr-title,
+.demositeqr-title {
   display: flex;
   text-align: center;
   justify-content: center;
   font-weight: 600;
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 12pt;
   opacity: 70%;
 }
 .demositeqr-title {
-  font-size: 18px;
+  font-size: 12pt;
 }
-.linktreeqr-txt, .demositeqr-txt {
+.linktreeqr-txt,
+.demositeqr-txt {
   width: fit-content;
   margin-top: -7px;
   font-family: Rubik, sans-serif;
@@ -256,6 +271,7 @@ hr {
   display: flex;
   justify-content: flex-end;
   height: 138.48px;
+  margin-right: 45px;
 }
 
 .item {
@@ -274,6 +290,22 @@ hr {
   width: 19px;
   height: 19px;
 }
-.career, .skills {
+.career,
+.skills {
   margin-bottom: -5px;
+}
+.justify {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-size: 9pt;
+  text-justify: "inter-word";
+  font-weight: 500;
+}
+
+.importantbold {
+  font-weight: 600!important;
+}
+.biggerfont {
+  font-size: 10pt!important;
 }
