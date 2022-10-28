@@ -220,25 +220,34 @@ hr {
 .main-row1-col2 {
   width: 300px;
 }
-.linktreeqr {
+.linktreeqr, .demositeqr {
   width: 100px;
-  height: fit-content;
+  height: 100px;
   opacity: 50%;
   margin-top: 10px;
   margin-right: 20px;
 }
-.linktreeqr-title {
+.demositeqr {
+  width: 97px;
+}
+.linktreeqr-title, .demositeqr-title {
   display: flex;
   text-align: center;
   justify-content: center;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   opacity: 70%;
 }
-.linktreeqr-txt {
+.demositeqr-title {
+  font-size: 18px;
+}
+.linktreeqr-txt, .demositeqr-txt {
   width: fit-content;
   margin-top: -7px;
   font-family: Rubik, sans-serif;
+}
+.demositeqr-txt {
+  /* word-spacing: -5px; */
 }
 .main-row1 {
   display: flex;
@@ -246,6 +255,7 @@ hr {
 .main-row1-col2 {
   display: flex;
   justify-content: flex-end;
+  height: 138.48px;
 }
 
 .item {
@@ -264,7 +274,6 @@ hr {
   width: 19px;
   height: 19px;
 }
-
-.education {
-  margin-bottom: 25px;
+.career, .skills {
+  margin-bottom: -5px;
 }

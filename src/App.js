@@ -5,6 +5,7 @@ import "./style/style.css";
 import { List } from "semantic-ui-react";
 import mylogo from "./images/mylogo.jpg";
 import { ReactComponent as LinkTreeQR } from "./images/svglogo.svg";
+import { ReactComponent as DemoSiteQR } from "./images/demosite.svg";
 import { ReactComponent as JavaScript } from "./images/js.svg";
 import { ReactComponent as Java } from "./images/java.svg";
 import { ReactComponent as Html } from "./images/html.svg";
@@ -214,6 +215,12 @@ function App() {
             </div>
           </div>
           <div className="main-row1-col2">
+            <div className="demositeqr">
+              <DemoSiteQR className="demositeqr" />
+              <div className="demositeqr-title">
+                <div className="demositeqr-txt">Demo Site</div>
+              </div>
+            </div>
             <div className="linktreeqr">
               <LinkTreeQR className="linktreeqr" />
               <div className="linktreeqr-title">
