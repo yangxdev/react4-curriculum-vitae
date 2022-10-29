@@ -6,6 +6,8 @@ import { List } from "semantic-ui-react";
 import mylogo from "./images/mylogo.jpg";
 import { ReactComponent as LinkTreeQR } from "./images/svglogo.svg";
 import { ReactComponent as DemoSiteQR } from "./images/feqr.svg";
+import Icon from "./unimiblogo.js";
+import ittslogo from "./images/itts.png";
 import { ReactComponent as JavaScript } from "./images/js.svg";
 import { ReactComponent as Java } from "./images/java.svg";
 import { ReactComponent as Html } from "./images/html.svg";
@@ -319,8 +321,7 @@ function App() {
                             <span style={{}}>
                               Developed the front-end side of a Python Flask
                               website. Managed server-side data (REST API) and
-                              communications between front-end and back-end
-                              using GitHub as Version Control.{" "}
+                              frontend-backend communications using GitHub as Version Control.{" "}
                             </span>
                           </span>
                         </List.Item>
@@ -474,18 +475,20 @@ function App() {
                   {" "}
                   Computer Science graduate{" "}
                 </span>
-                eager to continue exploring the field of
+                eager to kickstart my career in the field of
                 <span style={{ fontWeight: "bold" }}>
                   {" "}
                   Front-End Development.{" "}
                 </span>
-                Looking to join a development team to put my knowledge into
+                <br></br>Looking to join a development team to put my knowledge into
                 practice.
               </div>
             </div>
             <div className="education">
               <div className="title-education">EDUCATION</div>
               <hr />
+              < Icon/>
+              <img src={ittslogo} className="ittslogo" alt="ittslogo"></img>
               <EducationItem
                 degree="Bachelor of Science"
                 field="Computer Science"
