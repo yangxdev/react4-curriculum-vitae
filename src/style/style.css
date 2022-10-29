@@ -13,7 +13,6 @@ a {
   --darkblue: rgb(0, 46, 120);
   --red: rgb(255, 0, 0);
   --margin: 1rem;
-  /* --padding: 1rem; */
 }
 @page {
   size: 21cm 29.7cm;
@@ -24,25 +23,21 @@ a {
   margin-bottom: 5px;
   align-items: center;
 }
-
 .main {
   position: relative;
   display: flex;
   justify-content: center;
-  /* text-align: center; */
   align-items: center;
   margin: auto;
   width: 100%;
   height: 100%;
 }
-
 .page {
   height: 29.7cm;
   width: 21cm;
   padding: var(--padding);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 .title-name {
   display: flex;
   text-align: center;
@@ -59,44 +54,31 @@ a {
   margin-top: 6px;
   margin-bottom: 8px;
 }
-
 .links-container {
-  /* margin-top: 3.5mm; */
-  /* margin-left: 10mm; */
   width: 190mm;
   height: fit-content;
-  /* border: 1px solid gray; */
   display: flex;
 }
 .link {
   text-decoration: none;
   color: black;
-  /* font-size: 12.5px; */
   font-size: 9pt;
   vertical-align: middle;
   margin-left: 5px;
 }
-
 .link:hover {
   color: rgb(66, 135, 245) !important ;
 }
-
 .column2 {
   margin-left: 50px;
 }
-
 .work-experience,
 .hobbies {
-  /* margin-top: 2.5mm; */
-  /* margin-left: 10mm; */
-  /* width: 190mm; */
-  /* border: solid black 1px; */
   width: 110mm;
   height: fit-content;
 }
 .date {
   margin-left: 5px;
-  /* font-size: 12.5px; */
   font-size: 9pt;
 }
 .row {
@@ -111,7 +93,6 @@ a {
 .work-experience-item-title {
   margin-top: 5px;
   font-size: 12pt;
-  /* font-weight: 400; */
   font-weight: 600;
 }
 .work-experience-item-company,
@@ -121,31 +102,25 @@ a {
   font-size: 10pt;
 }
 .work-experience-item-content {
-  /* font-size: 9pt; */
   font-weight: 500;
 }
-
 hr {
   height: 2.5px !important;
   border: 0;
   background-color: black;
 }
-
 .main-row2 {
   display: flex;
   margin-top: -8px;
 }
-
 .main-row2-col2 {
   margin-left: 0.66cm;
   margin-right: 1cm;
 }
-
 .main-row1 {
   margin-left: 1cm;
   margin-top: 1cm;
 }
-
 .education-item-courses-title {
   font-weight: 600;
   margin-bottom: 2.5px;
@@ -178,11 +153,9 @@ hr {
   font-size: 10pt;
   font-weight: 500;
 }
-
 .main-row2-col1 {
   margin-left: 1cm;
 }
-
 .work-experience-item-company a,
 .education-item-school a {
   color: var(--blue) !important;
@@ -193,11 +166,9 @@ hr {
 .education-item-school a:hover {
   color: var(--darkblue) !important;
 }
-
 .link-location a:hover {
   color: var(--blue) !important;
 }
-
 .education-item {
   margin-bottom: 10px;
 }
@@ -218,12 +189,14 @@ hr {
   display: flex;
   align-items: center;
 }
-
 .main-row1-col1 {
   width: 420px;
 }
 .main-row1-col2 {
   width: 300px;
+}
+.qr {
+  display: flex;
 }
 .linktreeqr,
 .demositeqr {
@@ -245,9 +218,6 @@ hr {
   font-size: 11pt;
   opacity: 70%;
 }
-/* .demositeqr-title {
-  font-size: 12pt;
-} */
 .linktreeqr-txt,
 .demositeqr-txt {
   width: fit-content;
@@ -263,7 +233,6 @@ hr {
   height: 138.48px;
   margin-right: 45px;
 }
-
 .item {
   align-items: center;
 }
@@ -285,6 +254,7 @@ hr {
   margin-bottom: -5px;
 }
 .justify {
+  -webkit-text-size-adjust: 100%;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -292,7 +262,6 @@ hr {
   text-justify: "inter-word";
   font-weight: 500;
 }
-
 .importantbold {
   font-weight: 600!important;
 }
