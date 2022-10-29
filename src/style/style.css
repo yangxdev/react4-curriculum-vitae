@@ -37,36 +37,27 @@ a {
 }
 
 .page {
-  /* margin-top: 0.25cm; */
-  /* margin-bottom: 0.25cm; */
   height: 29.7cm;
   width: 21cm;
-  /* margin: var(--margin); */
   padding: var(--padding);
-  /* border: solid 0.25px gray; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .title-name {
-  /* margin-left: 1cm; */
-  /* margin-top: 1cm; */
   display: flex;
   text-align: center;
   align-items: center;
-  /* font-size: 40px; */
   font-size: 27pt;
   height: 40px;
   font-weight: 700;
 }
 .title-job {
-  /* margin-left: 1cm; */
   font-size: 20px;
   color: var(--blue);
   font-weight: 700;
-  /* font-size: 25px; */
   font-size: 18pt;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 6px;
+  margin-bottom: 8px;
 }
 
 .links-container {
@@ -114,7 +105,7 @@ a {
 .work-experience-item {
   margin-bottom: 10px;
 }
-.work-experience-item-location {
+.work-experience-item-location, .education-item-location {
   margin-left: 5px;
 }
 .work-experience-item-title {
@@ -142,11 +133,11 @@ hr {
 
 .main-row2 {
   display: flex;
+  margin-top: -8px;
 }
 
 .main-row2-col2 {
   margin-left: 0.66cm;
-
   margin-right: 1cm;
 }
 
@@ -178,6 +169,9 @@ hr {
   margin-top: 20px;
   font-weight: 700;
   font-size: 18pt;
+}
+.title-hobbies {
+  margin-top: 15px;
 }
 .career-content {
   text-align: justify;
@@ -248,21 +242,17 @@ hr {
   text-align: center;
   justify-content: center;
   font-weight: 600;
-  /* font-size: 18px; */
-  font-size: 12pt;
+  font-size: 11pt;
   opacity: 70%;
 }
-.demositeqr-title {
+/* .demositeqr-title {
   font-size: 12pt;
-}
+} */
 .linktreeqr-txt,
 .demositeqr-txt {
   width: fit-content;
   margin-top: -7px;
   font-family: Rubik, sans-serif;
-}
-.demositeqr-txt {
-  /* word-spacing: -5px; */
 }
 .main-row1 {
   display: flex;
