@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react4-curriculum-vitae/static/css/main.8deb6e96.css",
-    "main.js": "/react4-curriculum-vitae/static/js/main.7fa7508a.js",
+    "main.js": "/react4-curriculum-vitae/static/js/main.8c59ead3.js",
     "static/js/787.a71561b8.chunk.js": "/react4-curriculum-vitae/static/js/787.a71561b8.chunk.js",
     "static/media/brand-icons.svg": "/react4-curriculum-vitae/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/react4-curriculum-vitae/static/media/icons.62d9dae4e0040e81c980.svg",
@@ -28,11 +28,11 @@
     "index.html": "/react4-curriculum-vitae/index.html",
     "static/media/js.svg": "/react4-curriculum-vitae/static/media/js.c44ca070b55344b816e4855973b3aba8.svg",
     "main.8deb6e96.css.map": "/react4-curriculum-vitae/static/css/main.8deb6e96.css.map",
-    "main.7fa7508a.js.map": "/react4-curriculum-vitae/static/js/main.7fa7508a.js.map",
+    "main.8c59ead3.js.map": "/react4-curriculum-vitae/static/js/main.8c59ead3.js.map",
     "787.a71561b8.chunk.js.map": "/react4-curriculum-vitae/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8deb6e96.css",
-    "static/js/main.7fa7508a.js"
+    "static/js/main.8c59ead3.js"
   ]
 }
