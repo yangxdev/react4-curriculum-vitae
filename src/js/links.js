@@ -1,6 +1,6 @@
 import Pointer from "./pointer.js";
 
-let linkedin_url = "https://www.linkedin.com/in/yngx";
+let linkedin_url = "https://www.linkedin.com/in/yangxng";
 let github_url = "https://www.github.com/yangxdev";
 let instagram_url = "https://www.instagram.com/yang.xng/";
 let email = "j.xiang@campus.unimib.it";
@@ -47,7 +47,7 @@ function Links() {
                     rel="noreferrer"
                     className="link-linkedin link"
                   >
-                    linkedin.com/in/yngx
+                    linkedin.com/in/yangxng
                   </a>
                 </div>
                 <div className="instagram df">
