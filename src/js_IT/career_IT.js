@@ -13,7 +13,7 @@ function Career() {
         <span style={{ fontWeight: "bold" }}> sviluppo front-end. </span>
         <br></br>
         <span style={{ fontWeight: "bold" }}>Obiettivo principale:{" "}</span>
-        entrare a far parte di un team di sviluppo per mettere in pratica le mie
+        entrare a far parte di un team per mettere in pratica le mie
         conoscenze.{" "}
       </div>
     </div>

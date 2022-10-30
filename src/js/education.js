@@ -10,8 +10,8 @@ function Education() {
       <Icon />
       {/* <img src={ittslogo} className="ittslogo" alt="ittslogo"></img> */}
       <EducationItem
-        degree="Bachelor of Computer Science"
-        field=""
+        degree="Bachelor of Science"
+        field="Computer Science"
         link="https://www.unimib.it/"
         school="University of Milan - Bicocca"
         date="September 2020 - July 2023"

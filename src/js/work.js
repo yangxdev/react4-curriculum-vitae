@@ -8,7 +8,7 @@ function Work() {
       <hr />
       <div className="work-experience-content">
         <WorkItem
-          title="Waiter"
+          title="Room Service Waiter"
           company="Bento Sushi"
           link="https://goo.gl/maps/gzsfJ9QELKVYoVqD6"
           date="June 2019 - September 2020"
@@ -18,7 +18,6 @@ function Work() {
             <div className="justify">
               <List bulleted>
                 <List.Item>Taking orders and managing reservations.</List.Item>
-                <List.Item>Serving food and beverages to customers.</List.Item>
                 <List.Item>Setting and preparing the room.</List.Item>
               </List>
             </div>

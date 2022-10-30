@@ -11,7 +11,7 @@ function Education() {
       {/* <img src={ittslogo} className="ittslogo" alt="ittslogo"></img> */}
       <EducationItem
         degree="L.T. in Scienze Informatiche"
-        field="Scienze Informatiche"
+        field=""
         link="https://www.unimib.it/"
         school="Università degli Studi di Milano - Bicocca"
         date="Sett. 2020 - Luglio 2023"

@@ -4,25 +4,25 @@ import "./style/reset.css";
 import "./style/fonts.css";
 import mylogo from "./images/mylogo.jpg";
 
-// import "./style/style_IT.css";
-// import Skills from "./js_IT/skills_IT.js";
-// import Links from "./js_IT/links_IT.js";
-// import Certifications from "./js_IT/certifications_IT";
-// import Career from "./js_IT/career_IT.js";
-// import Work from "./js_IT/work_IT.js";
-// import Education from "./js_IT/education_IT.js";
-// import QR from "./js_IT/qr_IT.js";
-// import Projects from "./js_IT/projects_IT.js";
+import "./style/style_IT.css";
+import Skills from "./js_IT/skills_IT.js";
+import Links from "./js_IT/links_IT.js";
+import Certifications from "./js_IT/certifications_IT";
+import Career from "./js_IT/career_IT.js";
+import Work from "./js_IT/work_IT.js";
+import Education from "./js_IT/education_IT.js";
+import QR from "./js_IT/qr_IT.js";
+import Projects from "./js_IT/projects_IT.js";
 
-import "./style/style.css";
-import Skills from "./js/skills.js";
-import Links from "./js/links.js";
-import Certifications from "./js/certifications";
-import Career from "./js/career.js";
-import Work from "./js/work.js";
-import Education from "./js/education.js";
-import QR from "./js/qr.js";
-import Projects from "./js/projects.js";
+// import "./style/style.css";
+// import Skills from "./js/skills.js";
+// import Links from "./js/links.js";
+// import Certifications from "./js/certifications";
+// import Career from "./js/career.js";
+// import Work from "./js/work.js";
+// import Education from "./js/education.js";
+// import QR from "./js/qr.js";
+// import Projects from "./js/projects.js";
 
 function App() {
   return (
