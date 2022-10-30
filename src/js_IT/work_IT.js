@@ -1,45 +1,43 @@
-import WorkItem from "./workitem.js";
+import WorkItem from "./workitem_IT.js";
 import { List } from "semantic-ui-react";
 
 function Work() {
   return (
     <div className="work-experience">
-      <div className="title-work-experience">WORK EXPERIENCE</div>
+      <div className="title-work-experience">ESPERIENZA LAVORATIVA</div>
       <hr />
       <div className="work-experience-content">
         <WorkItem
-          title="Waiter"
+          title="Cameriere di sala"
           company="Bento Sushi"
           link="https://goo.gl/maps/gzsfJ9QELKVYoVqD6"
-          date="June 2019 - September 2020"
+          date="Giugno 2019 - Settembre 2020"
           locationlink="https://www.google.com/maps/place/Cattolica,+Italy"
           location="Cattolica, RN"
           description={
             <div className="justify">
               <List bulleted>
-                <List.Item>Taking orders and managing reservations.</List.Item>
-                <List.Item>Serving food and beverages to customers.</List.Item>
-                <List.Item>Setting and preparing the room.</List.Item>
+                <List.Item>Gestione ordini e prenotazioni.</List.Item>
+                <List.Item>Servizio e preparazione tavoli.</List.Item>
               </List>
             </div>
           }
         />
         <WorkItem
-          title="Developer Intern"
+          title="Sviluppatore Web"
           company="iperbooking"
           link="https://www.iperbooking.com/"
-          date="May 2019 - June 2019"
+          date="Maggio 2019 - Giugno 2019"
           locationlink="https://www.google.com/maps/place/Rimini,+Italy"
           location="Rimini, RN"
           description={
             <div className="justify">
               <List bulleted>
                 <List.Item>
-                  First steps in the world of web development, learning the
-                  company's workflow.
+                  Primi passi nel mondo dello sviluppo web, imparando il workflow dell'azienda.
                 </List.Item>
                 <List.Item>
-                  Website and database management of a Booking Engine.
+                  Gestione del sito web e del database di una Booking Engine.
                 </List.Item>
               </List>
             </div>

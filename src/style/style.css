@@ -1,6 +1,6 @@
 * {
   font-family: Montserrat, sans-serif;
-  transition: 0.25s ease;
+  /* transition: 0.25s ease; */
 }
 .title-name {
   font-family: Rubik, sans-serif;
@@ -73,7 +73,7 @@ a {
   margin-left: 50px;
 }
 .work-experience,
-.hobbies {
+.projects {
   width: 110mm;
   height: fit-content;
 }
@@ -140,12 +140,12 @@ hr {
 .title-career,
 .title-skills,
 .title-certifications,
-.title-hobbies {
+.title-projects {
   margin-top: 20px;
   font-weight: 700;
   font-size: 18pt;
 }
-.title-hobbies {
+.title-projects {
   margin-top: 15px;
 }
 .career-content {

@@ -10,11 +10,11 @@ function Education() {
       <Icon />
       {/* <img src={ittslogo} className="ittslogo" alt="ittslogo"></img> */}
       <EducationItem
-        degree="Bachelor of Science"
-        field="Computer Science"
+        degree="Bachelor of Computer Science"
+        field=""
         link="https://www.unimib.it/"
         school="University of Milan - Bicocca"
-        date="September 2020 - current"
+        date="September 2020 - July 2023"
         locationlink="https://www.google.com/maps/place/Milan,+Italy"
         location="Milan, MI"
         courses={
@@ -30,8 +30,8 @@ function Education() {
         }
       />
       <EducationItem
-        degree="Computer Science Diploma"
-        field="Information Technology"
+        degree="Information Technology Diploma"
+        field=""
         link="https://www.ittsrimini.edu.it/"
         school="ITTS Belluzzi - Da Vinci"
         date="Sept. 2015 - June 2020"
