@@ -8,7 +8,7 @@ function QR() {
         <DemoSiteQR className="demositeqr" />
         <div className="demositeqr-title">
           <div className="demositeqr-txt">
-            <a href="https://bit.ly/3UaQWYq" target="_blank" rel="noreferrer">
+            <a href="https://www.frontendmentor.io/profile/yangxdev/solutions" target="_blank" rel="noreferrer">
               My Projects
             </a>
           </div>
