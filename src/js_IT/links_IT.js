@@ -3,7 +3,7 @@ import Pointer from "./pointer_IT.js";
 let linkedin_url = "https://www.linkedin.com/in/yangxng";
 let github_url = "https://www.github.com/yangxdev";
 let instagram_url = "https://www.instagram.com/yang.xng/";
-let email = "j.xiang@campus.unimib.it";
+let email = "yangxiangpro@gmail.com";
 let phone = "+39 3342229699";
 
 function Links() {
@@ -89,7 +89,7 @@ function Links() {
                     rel="noreferrer"
                     className="link-email link"
                   >
-                    j.xiang@campus.unimib.it
+                    yangxiangpro@gmail.com
                   </a>
                 </div>
                 <div className="number df">
