@@ -310,6 +310,10 @@ hr {
 .main .page .main-row2 .main-row2-col2 .education .row .education-item-location .link-location :hover {
   color: var(--blue) !important;
 }
+.main .page .main-row2 .main-row2-col2 .education .row .education-item-location .date {
+  margin-left: 5px;
+  font-size: 9pt;
+}
 .main .page .main-row2 .main-row2-col2 .education .education-item-courses .education-item-courses-title {
   font-weight: 600;
   margin-bottom: 2.5px;
