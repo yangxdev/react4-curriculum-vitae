@@ -1,0 +1,156 @@
+@use "Fonts";
+@use "Qr" as useQr;
+@use "Links" as useLinks;
+@use "Work" as useWork;
+@use "Projects" as useProjects;
+@use "Career" as useCareer;
+@use "Education" as useEducation;
+@use "Skills" as useSkills;
+@use "Certifications" as useCertifications;
+
+:root {
+  --blue: rgb(66, 135, 245);
+  --darkblue: rgb(0, 46, 120);
+  --red: rgb(255, 0, 0);
+  --margin: 1rem;
+}
+$blue: rgb(66, 135, 245);
+$darkblue: rgb(0, 46, 120);
+$red: rgb(255, 0, 0);
+$margin: 1rem;
+$logohw: 32px;
+
+@mixin qr() {
+  @include useQr.qr;
+}
+@mixin work() {
+  @include useWork.work;
+}
+@mixin links() {
+  @include useLinks.links;
+}
+@mixin projects() {
+  @include useProjects.projects;
+}
+@mixin career() {
+  @include useCareer.career;
+}
+@mixin education() {
+  @include useEducation.education;
+}
+@mixin skills() {
+  @include useSkills.skills;
+}
+@mixin certifications() {
+  @include useCertifications.certifications;
+}
+
+@mixin page() {
+  height: 29.7cm;
+  width: 21cm;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  .main-row1 {
+    display: flex;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    .main-row1-col1 {
+      width: 420px;
+      .main-row1-inner1 {
+        display: flex;
+        align-items: center;
+        .title-name {
+          display: flex;
+          text-align: center;
+          align-items: center;
+          font-size: 27pt;
+          height: 40px;
+          font-weight: 700;
+        }
+        .title-logo {
+          width: $logohw;
+          height: $logohw;
+          margin-left: 10px;
+        }
+      }
+      .title-job {
+        font-size: 20px;
+        color: $blue;
+        font-weight: 700;
+        font-size: 18pt;
+        margin-top: 6px;
+        margin-bottom: 8px;
+      }
+      @include links();
+    }
+    .main-row1-col2 {
+      width: 300px;
+      display: flex;
+      justify-content: flex-end;
+      height: 138.48px;
+      margin-right: 45px;
+      @include qr();
+    }
+  }
+  .main-row2 {
+    display: flex;
+    margin-top: -8px;
+    .main-row2-col1 {
+      margin-left: 1cm;
+      @include work();
+      @include projects();
+    }
+    .main-row2-col2 {
+      margin-left: 0.66cm;
+      margin-right: 1cm;
+      @include career();
+      @include education();
+      @include skills();
+      @include certifications();
+    }
+  }
+}
+
+// Content.scss
+a {
+  color: black !important;
+}
+hr {
+  height: 2.5px !important;
+  border: 0;
+  background-color: black;
+}
+.df {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.biggerfont {
+  font-size: 10pt !important;
+}
+.justify {
+  -webkit-text-size-adjust: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 9pt;
+  text-justify: "inter-word";
+  font-weight: 500;
+}
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  .page {
+    @include page();
+  }
+}
+
+.mylogo {
+  width: $logohw;
+  height: $logohw;
+  border-radius: 100px;
+}

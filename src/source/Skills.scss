@@ -1,0 +1,20 @@
+@mixin skills {
+  .skills {
+    .title-skills {
+      margin-top: 20px;
+      font-weight: 700;
+      font-size: 18pt;
+    }
+  }
+  .skills-content {
+    .skills-item {
+      display: flex;
+      align-items: center;
+      .skills-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+      }
+    }
+  }
+}

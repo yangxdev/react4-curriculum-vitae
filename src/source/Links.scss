@@ -1,0 +1,20 @@
+@mixin links {
+  .links-container {
+    width: 190mm;
+    height: fit-content;
+    display: flex;
+    .column2 {
+      margin-left: 50px;
+    }
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+    font-size: 9pt;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  .link:hover {
+    color: var(--blue)!important;
+  }
+}

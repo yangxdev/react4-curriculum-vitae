@@ -1,0 +1,12 @@
+@use "EducationItem" as useEducationItem;
+
+@mixin education {
+    .education {
+        .title-education {
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 18pt;
+        }
+        @include useEducationItem.educationitem();
+    }
+}

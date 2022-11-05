@@ -1,0 +1,16 @@
+@use "WorkItem" as useWorkItem;
+
+@mixin projects {
+  .projects {
+    width: 110mm;
+    height: fit-content;
+    .title-projects {
+      margin-top: 20px;
+      font-weight: 700;
+      font-size: 18pt;
+    }
+    .projects-content {
+        @include useWorkItem.workitem();
+    }
+  }
+}

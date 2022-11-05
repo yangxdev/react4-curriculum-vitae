@@ -1,0 +1,15 @@
+@mixin career {
+  .career {
+    margin-bottom: -5px;
+    .title-career {
+      margin-top: 20px;
+      font-weight: 700;
+      font-size: 18pt;
+    }
+    .career-content {
+      text-align: left;
+      font-size: 10pt;
+      font-weight: 500;
+    }
+  }
+}

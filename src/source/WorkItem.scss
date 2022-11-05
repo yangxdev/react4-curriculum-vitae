@@ -1,0 +1,40 @@
+@mixin workitem {
+  .work-experience-item {
+    margin-bottom: 10px;
+    .work-experience-item-title {
+      margin-top: 5px;
+      font-size: 12pt;
+      font-weight: 600;
+    }
+    .work-experience-item-company {
+      font-weight: 600;
+      font-size: 10pt;
+      & a {
+        color: var(--blue) !important;
+      }
+      & :hover {
+        color: var(--darkblue) !important;
+      }
+    }
+    .row {
+      display: flex;
+      .work-experience-item-date {
+        .date {
+          margin-left: 5px;
+          font-size: 9pt;
+        }
+      }
+      .work-experience-item-location {
+        margin-left: 5px;
+        .link-location {
+          color: black !important;
+          margin-left: 5px;
+          font-size: 9pt;
+          & :hover {
+            color: var(--blue) !important;
+          }
+        }
+      }
+    }
+  }
+}

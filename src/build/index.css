@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+* {
+  font-family: Montserrat, sans-serif;
+}
+* .title-name, * .linktreeqr-txt, * .demositeqr-txt {
+  font-family: "Rubik", sans-serif;
+}
+
+:root {
+  --blue: rgb(66, 135, 245);
+  --darkblue: rgb(0, 46, 120);
+  --red: rgb(255, 0, 0);
+  --margin: 1rem;
+}
+
+a {
+  color: black !important;
+}
+
+hr {
+  height: 2.5px !important;
+  border: 0;
+  background-color: black;
+}
+
+.df {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.biggerfont {
+  font-size: 10pt !important;
+}
+
+.justify {
+  -webkit-text-size-adjust: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 9pt;
+  text-justify: "inter-word";
+  font-weight: 500;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.main .page {
+  height: 29.7cm;
+  width: 21cm;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main .page .main-row1 {
+  display: flex;
+  margin-left: 1cm;
+  margin-top: 1cm;
+}
+.main .page .main-row1 .main-row1-col1 {
+  width: 420px;
+}
+.main .page .main-row1 .main-row1-col1 .main-row1-inner1 {
+  display: flex;
+  align-items: center;
+}
+.main .page .main-row1 .main-row1-col1 .main-row1-inner1 .title-name {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 27pt;
+  height: 40px;
+  font-weight: 700;
+}
+.main .page .main-row1 .main-row1-col1 .main-row1-inner1 .title-logo {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+.main .page .main-row1 .main-row1-col1 .title-job {
+  font-size: 20px;
+  color: rgb(66, 135, 245);
+  font-weight: 700;
+  font-size: 18pt;
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+.main .page .main-row1 .main-row1-col1 .links-container {
+  width: 190mm;
+  height: fit-content;
+  display: flex;
+}
+.main .page .main-row1 .main-row1-col1 .links-container .column2 {
+  margin-left: 50px;
+}
+.main .page .main-row1 .main-row1-col1 .link {
+  text-decoration: none;
+  color: black;
+  font-size: 9pt;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.main .page .main-row1 .main-row1-col1 .link:hover {
+  color: var(--blue) !important;
+}
+.main .page .main-row1 .main-row1-col2 {
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  height: 138.48px;
+  margin-right: 45px;
+}
+.main .page .main-row1 .main-row1-col2 .qr {
+  display: flex;
+}
+.main .page .main-row1 .main-row1-col2 .qr .demositeqr {
+  width: 100px;
+  height: 100px;
+  opacity: 50%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.main .page .main-row1 .main-row1-col2 .qr .demositeqr .demositeqr-title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 11pt;
+  opacity: 70%;
+}
+.main .page .main-row1 .main-row1-col2 .qr .demositeqr .demositeqr-title .demositeqr-txt {
+  width: fit-content;
+  margin-top: -7px;
+}
+.main .page .main-row1 .main-row1-col2 .qr .linktreeqr {
+  width: 100px;
+  height: 100px;
+  opacity: 50%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.main .page .main-row1 .main-row1-col2 .qr .linktreeqr .linktreeqr-title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 11pt;
+  opacity: 70%;
+}
+.main .page .main-row1 .main-row1-col2 .qr .linktreeqr .linktreeqr-title .linktreeqr-txt {
+  width: fit-content;
+  margin-top: -7px;
+}
+.main .page .main-row2 {
+  display: flex;
+  margin-top: -8px;
+}
+.main .page .main-row2 .main-row2-col1 {
+  margin-left: 1cm;
+}
+.main .page .main-row2 .main-row2-col1 .work-experience {
+  width: 110mm;
+  height: fit-content;
+}
+.main .page .main-row2 .main-row2-col1 .work-experience .title-work-experience {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18pt;
+}
+.main .page .main-row2 .main-row2-col1 .work-experience .work-experience-content .work-experience-item {
+  margin-bottom: 10px;
+}
+.main .page .main-row2 .main-row2-col1 .work-experience .work-experience-content .work-experience-item .work-experience-item-title {
+  margin-top: 5px;
+  font-size: 12pt;
+  font-weight: 600;
+}
+.main .page .main-row2 .main-row2-col1 .work-experience .work-experience-content .work-experience-item .work-experience-item-company {
+  font-weight: 600;
+  font-size: 10pt;
+}
+.main .page .main-row2 .main-row2-col1 .work-experience .work-experience-content .work-experience-item .work-experience-item-company a {
+  color: var(--blue) !important;
+}
+.main .page .main-row2 .main-row2-col1 .work-experience .work-experience-content .work-experience-item .work-experience-item-company :hover {
+  color: var(--darkblue) !important;
+}
+.main .page .main-row2 .main-row2-col1 .work-experience .work-experience-content .work-experience-item .row {
+  display: flex;
+}
+.main .page .main-row2 .main-row2-col1 .work-experience .work-experience-content .work-experience-item .row .work-experience-item-date .date {
+  margin-left: 5px;
+  font-size: 9pt;
+}
+.main .page .main-row2 .main-row2-col1 .work-experience .work-experience-content .work-experience-item .row .work-experience-item-location {
+  margin-left: 5px;
+}
+.main .page .main-row2 .main-row2-col1 .work-experience .work-experience-content .work-experience-item .row .work-experience-item-location .link-location {
+  color: black !important;
+  margin-left: 5px;
+  font-size: 9pt;
+}
+.main .page .main-row2 .main-row2-col1 .work-experience .work-experience-content .work-experience-item .row .work-experience-item-location .link-location :hover {
+  color: var(--blue) !important;
+}
+.main .page .main-row2 .main-row2-col1 .projects {
+  width: 110mm;
+  height: fit-content;
+}
+.main .page .main-row2 .main-row2-col1 .projects .title-projects {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18pt;
+}
+.main .page .main-row2 .main-row2-col1 .projects .projects-content .work-experience-item {
+  margin-bottom: 10px;
+}
+.main .page .main-row2 .main-row2-col1 .projects .projects-content .work-experience-item .work-experience-item-title {
+  margin-top: 5px;
+  font-size: 12pt;
+  font-weight: 600;
+}
+.main .page .main-row2 .main-row2-col1 .projects .projects-content .work-experience-item .work-experience-item-company {
+  font-weight: 600;
+  font-size: 10pt;
+}
+.main .page .main-row2 .main-row2-col1 .projects .projects-content .work-experience-item .work-experience-item-company a {
+  color: var(--blue) !important;
+}
+.main .page .main-row2 .main-row2-col1 .projects .projects-content .work-experience-item .work-experience-item-company :hover {
+  color: var(--darkblue) !important;
+}
+.main .page .main-row2 .main-row2-col1 .projects .projects-content .work-experience-item .row {
+  display: flex;
+}
+.main .page .main-row2 .main-row2-col1 .projects .projects-content .work-experience-item .row .work-experience-item-date .date {
+  margin-left: 5px;
+  font-size: 9pt;
+}
+.main .page .main-row2 .main-row2-col1 .projects .projects-content .work-experience-item .row .work-experience-item-location {
+  margin-left: 5px;
+}
+.main .page .main-row2 .main-row2-col1 .projects .projects-content .work-experience-item .row .work-experience-item-location .link-location {
+  color: black !important;
+  margin-left: 5px;
+  font-size: 9pt;
+}
+.main .page .main-row2 .main-row2-col1 .projects .projects-content .work-experience-item .row .work-experience-item-location .link-location :hover {
+  color: var(--blue) !important;
+}
+.main .page .main-row2 .main-row2-col2 {
+  margin-left: 0.66cm;
+  margin-right: 1cm;
+}
+.main .page .main-row2 .main-row2-col2 .career {
+  margin-bottom: -5px;
+}
+.main .page .main-row2 .main-row2-col2 .career .title-career {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18pt;
+}
+.main .page .main-row2 .main-row2-col2 .career .career-content {
+  text-align: left;
+  font-size: 10pt;
+  font-weight: 500;
+}
+.main .page .main-row2 .main-row2-col2 .education .title-education {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18pt;
+}
+.main .page .main-row2 .main-row2-col2 .education .education-item {
+  margin-bottom: 10px;
+}
+.main .page .main-row2 .main-row2-col2 .education .education-item .education-item-title {
+  font-size: 12pt;
+  font-weight: 600;
+}
+.main .page .main-row2 .main-row2-col2 .education .education-item .education-item-field {
+  font-size: 10pt;
+  font-weight: 500;
+}
+.main .page .main-row2 .main-row2-col2 .education .education-item .education-item-school {
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 10pt;
+}
+.main .page .main-row2 .main-row2-col2 .education .education-item .education-item-school a {
+  color: var(--blue) !important;
+}
+.main .page .main-row2 .main-row2-col2 .education .education-item .education-item-school :hover {
+  color: var(--darkblue) !important;
+}
+.main .page .main-row2 .main-row2-col2 .education .row {
+  display: flex;
+}
+.main .page .main-row2 .main-row2-col2 .education .row .education-item-date .date {
+  margin-left: 5px;
+  font-size: 9pt;
+}
+.main .page .main-row2 .main-row2-col2 .education .row .education-item-location {
+  margin-left: 5px;
+}
+.main .page .main-row2 .main-row2-col2 .education .row .education-item-location .link-location :hover {
+  color: var(--blue) !important;
+}
+.main .page .main-row2 .main-row2-col2 .education .education-item-courses .education-item-courses-title {
+  font-weight: 600;
+  margin-bottom: 2.5px;
+  font-size: 9pt;
+}
+.main .page .main-row2 .main-row2-col2 .skills .title-skills {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18pt;
+}
+.main .page .main-row2 .main-row2-col2 .skills-content .skills-item {
+  display: flex;
+  align-items: center;
+}
+.main .page .main-row2 .main-row2-col2 .skills-content .skills-item .skills-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.main .page .main-row2 .main-row2-col2 .certifications .title-certifications {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18pt;
+}
+
+.mylogo {
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+}
+
+/*# sourceMappingURL=index.css.map */

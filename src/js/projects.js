@@ -14,7 +14,7 @@ function Projects() {
           date={
             <div>
               September 2020 -
-              <span style={{ fontWeight: "600" }}> current</span>
+              <span style={{ fontWeight: "600" }}> Present</span>
             </div>
           }
           locationlink="https://www.google.com/maps/place/Milan,+Italy"
@@ -55,7 +55,7 @@ function Projects() {
           link="https://www.frontendmentor.io/profile/yangxdev"
           date={
             <div>
-              April 2020 -<span style={{ fontWeight: "600" }}> current</span>
+              April 2020 -<span style={{ fontWeight: "600" }}> Present</span>
             </div>
           }
           locationlink="https://www.google.com/maps/place/Milan,+Italy"

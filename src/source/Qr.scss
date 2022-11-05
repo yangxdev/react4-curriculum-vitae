@@ -1,0 +1,43 @@
+@mixin level1 {
+  width: 100px;
+  height: 100px;
+  opacity: 50%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+@mixin level2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 11pt;
+  opacity: 70%;
+}
+@mixin level3 {
+  width: fit-content;
+  margin-top: -7px;
+}
+
+@mixin qr {
+  .qr {
+    display: flex;
+    .demositeqr {
+      @include level1;
+      .demositeqr-title {
+        @include level2;
+        .demositeqr-txt {
+          @include level3;
+        }
+      }
+    }
+    .linktreeqr {
+      @include level1;
+      .linktreeqr-title {
+        @include level2;
+        .linktreeqr-txt {
+          @include level3;
+        }
+      }
+    }
+  }
+}

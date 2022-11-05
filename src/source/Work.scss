@@ -1,0 +1,16 @@
+@use "WorkItem" as useWorkItem;
+
+@mixin work {
+  .work-experience {
+    width: 110mm;
+    height: fit-content;
+    .title-work-experience {
+      margin-top: 20px;
+      font-weight: 700;
+      font-size: 18pt;
+    }
+    .work-experience-content {
+      @include useWorkItem.workitem();
+    }
+  }
+}
