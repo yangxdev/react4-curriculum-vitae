@@ -25,6 +25,17 @@ function Projects() {
                 <List.Item>
                   <span className="justify">
                     <span style={{ fontWeight: "600" }}>
+                      Mobile Devices Programming Project:{" "}
+                    </span>
+                    Developed, managed and directed the front-end development of
+                    an Android application in a team of 4 people. Great use and
+                    deepening of Android Studio (Java), GitHub (Pull Requests,
+                    Issues, Merge conflicts).
+                  </span>
+                </List.Item>
+                <List.Item>
+                  <span className="justify">
+                    <span style={{ fontWeight: "600" }}>
                       Distributed Systems Project:{" "}
                     </span>
                     <span style={{}}>
@@ -32,17 +43,6 @@ function Projects() {
                       Managed server-side data (REST API) and frontend-backend
                       communications using GitHub as Version Control.{" "}
                     </span>
-                  </span>
-                </List.Item>
-                <List.Item>
-                  <span className="justify">
-                    <span style={{ fontWeight: "600" }}>
-                      Mobile Devices Programming Project:{" "}
-                    </span>
-                    Developed, managed and directed the front-end development of
-                    an Android application in a team of 4 people. Great use and
-                    deepening of Android Studio (Java), GitHub (Pull Requests,
-                    Issues, Merge conflicts).
                   </span>
                 </List.Item>
               </List>

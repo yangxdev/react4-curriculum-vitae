@@ -21,7 +21,7 @@ function Skills() {
           <List.Item>
             <div className="skills-item">
               <Css className="skills-icon css" />
-              CSS
+              CSS (Sass)
             </div>
           </List.Item>
           <List.Item>

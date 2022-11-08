@@ -20,9 +20,9 @@ function Education() {
         courses={
           <div className="justify">
             <List bulleted>
+              <List.Item>Mobile Devices Programming</List.Item>
               <List.Item>Networks and Operative Systems</List.Item>
               <List.Item>Algorithms and Data Structures</List.Item>
-              <List.Item>Mobile Devices Programming</List.Item>
               <List.Item>Programming Languages</List.Item>
               <List.Item>Databases</List.Item>
             </List>

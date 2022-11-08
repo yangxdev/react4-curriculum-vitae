@@ -37,7 +37,7 @@ function App() {
                 <img src={mylogo} alt="mylogo" className="mylogo" />
               </div>
             </div>
-            <div className="title-job">Junior Front-End Developer</div>
+            <div className="title-job">Junior Web Developer</div>
             <Links />
           </div>
           <div className="main-row1-col2">
