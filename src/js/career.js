@@ -7,7 +7,7 @@ function Career() {
         Soon-to-be
         <span style={{ fontWeight: "bold" }}> Computer Science graduate </span>
         eager to kickstart my career in the field of
-        <span style={{ fontWeight: "bold" }}> Web and Mobile Development. </span>
+        <span style={{ fontWeight: "bold" }}> Front-End Web Development. </span>
         <br></br>Looking to join a development team to put my knowledge into
         practice.
       </div>

@@ -28,34 +28,34 @@ import Projects from "./js/projects.js";
 function App() {
   return (
     <div className="main">
-      <div className="page">
-        <div className="main-row1">
-          <div className="main-row1-col1">
-            <div className="main-row1-inner1">
-              <div className="title-name">YANG XIANG</div>
-              <div className="title-logo">
-                <img src={mylogo} alt="mylogo" className="mylogo" />
+        <div className="page" id="section-to-print">
+          <div className="main-row1">
+            <div className="main-row1-col1">
+              <div className="main-row1-inner1">
+                <div className="title-name">YANG XIANG</div>
+                <div className="title-logo">
+                  <img src={mylogo} alt="mylogo" className="mylogo" />
+                </div>
               </div>
+              <div className="title-job">Junior Web Developer</div>
+              <Links />
             </div>
-            <div className="title-job">Junior Web Developer</div>
-            <Links />
+            <div className="main-row1-col2">
+              <QR />
+            </div>
           </div>
-          <div className="main-row1-col2">
-            <QR />
+          <div className="main-row2">
+            <div className="main-row2-col1">
+              <Work />
+              <Projects />
+            </div>
+            <div className="main-row2-col2">
+              <Career />
+              <Education />
+              <Skills />
+              <Certifications />
+            </div>
           </div>
-        </div>
-        <div className="main-row2">
-          <div className="main-row2-col1">
-            <Work />
-            <Projects />
-          </div>
-          <div className="main-row2-col2">
-            <Career />
-            <Education />
-            <Skills />
-            <Certifications />
-          </div>
-        </div>
       </div>
     </div>
   );
