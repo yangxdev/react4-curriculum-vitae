@@ -1,0 +1,21 @@
+{
+  "App-section": "App.js",
+  "title-name": "YANG XIANG",
+  "title-job": "Junior Full-Stack Developer",
+
+  "links-section": "links.js",
+  "github-front": "github.com/yangxdev",
+  "github-url": "https://www.github.com/yangxdev",
+  "linkedin-front": "linkedin.com/in/yangxng",
+  "linkedin-url": "https://www.linkedin.com/in/yangxng",
+  "instagram-front": "instagram.com/yang.xng",
+  "instagram-url": "https://www.instagram.com/yang.xng/",
+  "email": "yangxiangpro@gmail.com",
+  "phone": "+39 3342229699",
+  "location_front": "Milan, MI",
+  "location_url": "https://www.google.com/maps/place/Milan,+Italy",
+
+  "career-section": "career.js",
+  "career-content": "Soon-to-be Computer Science graduate eager to kickstart my career in the field of Web Development. Looking to join a development team to put my knowledge into practice and learn new skills."
+
+}

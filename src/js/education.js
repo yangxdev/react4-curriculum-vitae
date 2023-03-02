@@ -14,7 +14,7 @@ function Education() {
         field="Computer Science"
         link="https://www.unimib.it/"
         school="University of Milan - Bicocca"
-        date="September 2020 - July 2023"
+        date="September 2020 - October 2023"
         locationlink="https://www.google.com/maps/place/Milan,+Italy"
         location="Milan, MI"
         courses={

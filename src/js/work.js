@@ -8,6 +8,21 @@ function Work() {
       <hr />
       <div className="work-experience-content">
         <WorkItem
+          title="Analyst & Full Stack Developer"
+          company="Deloitte"
+          link="https://www2.deloitte.com/it/it.html"
+          date="March 2023 - Present"
+          locationlink="https://www.google.com/maps/place/Milan,+Italy"
+          location="Milan, MI"
+          description={
+            <div className="justify">
+              <List bulleted>
+                <List.Item>Starting as an Analyst with Full Stack Developer title.</List.Item>
+              </List>
+            </div>
+          }
+        />
+        <WorkItem
           title="Room Service Waiter"
           company="Bento Sushi"
           link="https://goo.gl/maps/gzsfJ9QELKVYoVqD6"

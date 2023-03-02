@@ -1,0 +1,22 @@
+{
+  "workItems": [
+    {
+      "title": "Room Service Waiter",
+      "company": "Bento Sushi",
+      "link": "https://goo.gl/maps/gzsfJ9QELKVYoVqD6",
+      "date": "June 2019 - September 2020",
+      "locationlink": "https://www.google.com/maps/place/Cattolica,+Italy",
+      "location": "Cattolica, RN",
+      "description": "Taking orders and managing reservations. Setting and preparing the room."
+    },
+    {
+      "title": "Developer Intern",
+      "company": "iperbooking",
+      "link": "https://www.iperbooking.com/",
+      "date": "May 2019 - June 2019",
+      "locationlink": "https://www.google.com/maps/place/Rimini,+Italy",
+      "location": "Rimini, RN",
+      "description": "First steps in the world of web development, learning the company's workflow. Website and database management of a Booking Engine."
+    }
+  ]
+}

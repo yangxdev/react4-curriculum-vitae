@@ -1,4 +1,31 @@
+import java.util.Stack;
+
 class Solution {
+  public int singleNumber(int[] nums) {
+        int[] res = new int[nums.length];
+        int i = 0;
+        res[i] = nums[i];
+        for(i = 1; i < nums.length; i++) {
+            if(Array.asList(res).indexOf(nums[i]) == -1) {
+                res[i] = nums[i];
+            }
+        }
+        return res[0];
+    }
+
+  public String removeDuplicates(String s) {
+    Stack stk = new Stack();
+    for (int i = s.length(); i >= 0; i--) {
+      if (
+        !stk.empty() && (stk.peek().toString().charAt(0) == s.charAt(i))
+      ) stk.pop(); else stk.push(s.charAt(i));
+    }
+    String ans = "";
+    while (!stk.empty()) {
+      ans += stk.pop();
+    }
+    return ans;
+  }
 
   public String longestCommonPrefix(String[] strs) {
     char arr[] = new char[strs.length];

@@ -1,10 +1,16 @@
 import Pointer from "./pointer.js";
+import info from "../json/info.json";
 
-let linkedin_url = "https://www.linkedin.com/in/yangxng";
-let github_url = "https://www.github.com/yangxdev";
-let instagram_url = "https://www.instagram.com/yang.xng/";
-let email = "yangxiangpro@gmail.com";
-let phone = "+39 3342229699";
+let linkedin_front = info["linkedin-front"];
+let linkedin_url = info["linkedin-url"];
+let github_front = info["github-front"];
+let github_url = info["github-url"];
+let instagram_front = info["instagram-front"];
+let instagram_url = info["instagram-url"];
+let email = info["email"];
+let phone = info["phone"];
+let location_front = info["location_front"];
+let location_url = info["location_url"];
 
 function Links() {
     return(
@@ -27,7 +33,7 @@ function Links() {
                     rel="noreferrer"
                     className="link-github link"
                   >
-                    github.com/yangxdev
+                    {github_front}
                   </a>
                 </div>
                 <div className="linkedin df">
@@ -47,7 +53,7 @@ function Links() {
                     rel="noreferrer"
                     className="link-linkedin link"
                   >
-                    linkedin.com/in/yangxng
+                    {linkedin_front}
                   </a>
                 </div>
                 <div className="instagram df">
@@ -67,7 +73,7 @@ function Links() {
                     rel="noreferrer"
                     className="link-instagram link"
                   >
-                    instagram.com/yang.xng
+                    {instagram_front}
                   </a>
                 </div>
               </div>
@@ -89,7 +95,7 @@ function Links() {
                     rel="noreferrer"
                     className="link-email link"
                   >
-                    yangxiangpro@gmail.com
+                    {email}
                   </a>
                 </div>
                 <div className="number df">
@@ -112,18 +118,18 @@ function Links() {
                     rel="noreferrer"
                     className="link-phone link"
                   >
-                    +39 334 222 9699
+                    {phone}
                   </a>
                 </div>
                 <div className="location df">
                   <Pointer />
                   <a
-                    href="https://www.google.com/maps/place/Milan,+Italy"
+                    href={location_url}
                     className="link-location link"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Milan, MI
+                    {location_front}
                   </a>
                 </div>
               </div>

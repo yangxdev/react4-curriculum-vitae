@@ -24,6 +24,7 @@ import Work from "./js/work.js";
 import Education from "./js/education.js";
 import QR from "./js/qr.js";
 import Projects from "./js/projects.js";
+import info from "./json/info.json";
 
 function App() {
   return (
@@ -32,12 +33,16 @@ function App() {
           <div className="main-row1">
             <div className="main-row1-col1">
               <div className="main-row1-inner1">
-                <div className="title-name">YANG XIANG</div>
+                <div className="title-name">
+                  {info["title-name"]}
+                </div>
                 <div className="title-logo">
                   <img src={mylogo} alt="mylogo" className="mylogo" />
                 </div>
               </div>
-              <div className="title-job">Junior Web Developer</div>
+              <div className="title-job">
+                {info["title-job"]}
+              </div>
               <Links />
             </div>
             <div className="main-row1-col2">
@@ -46,7 +51,7 @@ function App() {
           </div>
           <div className="main-row2">
             <div className="main-row2-col1">
-              <Work />
+              <Work/>
               <Projects />
             </div>
             <div className="main-row2-col2">
