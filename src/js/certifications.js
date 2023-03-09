@@ -1,5 +1,5 @@
 import { List } from "semantic-ui-react";
-import certificationsData from "../json/certifications.json";
+import certificationData from "../json/certificationData.json";
 
 function Certifications() {
   return(
@@ -8,7 +8,7 @@ function Certifications() {
       <hr />
       <div className="certifications-content justify biggerfont">
         <List bulleted>
-          {certificationsData.map((certification, index) => (
+          {certificationData.map((certification, index) => (
             <List.Item key={index}>
               {certification.title}: <span style={{ fontWeight: "bold" }}>{certification.level}</span>
             </List.Item>

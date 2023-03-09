@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Computer Science Student",
+        "company": "University of Milan - Bicocca",
+        "link": "https://www.unimib.it/",
+        "date": "September 2020 - Present",
+        "locationlink": "https://www.google.com/maps/place/Milan,+Italy",
+        "location": "Milan, MI",
+        "header": ["Mobile Devices Programming Project", "Distributed Systems Project"],
+        "description": [
+            "Developed ,managed and directed the front-end development of an Android application in a team of 4 people. Great use and deepening of Android Studio (Java), GitHub (Pull Requests, Issues, Merge conflicts).",
+            "Developed the front-end side of a Python Flask website. Managed server-side data (REST API) and frontend-backend communications using GitHub as Version Control."
+        ]
+    },
+    {
+        "title": "Front-End Developer",
+        "company": "Frontend Mentor",
+        "link": "https://www.frontendmentor.io/profile/yangxdev",
+        "date": "April 2020 - Present",
+        "locationlink": "https://www.google.com/maps/place/Milan,+Italy",
+        "location": "Rimini, RN & Milan, MI",
+        "header": ["Frontend Projects"],
+        "description": [
+            "Developed and designed 10+ projects for Frontend Mentor, a website that provides free design and coding challenges for web developers. The projects are developed using HTML, CSS, JavaScript, React, and SASS."
+        ]
+    }
+]

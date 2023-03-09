@@ -1,5 +1,6 @@
 import { List } from "semantic-ui-react";
 import WorkItem from "./workitem.js";
+import projectData from "../json/projectData.json";
 
 function Projects() {
   return (
@@ -7,16 +8,45 @@ function Projects() {
       <div className="title-projects">PROJECTS</div>
       <hr />
       <div className="projects-content">
-        <WorkItem
+        {projectData.map((projectItem, index) => (
+          <WorkItem
+            key={index}
+            title={projectItem.title}
+            company={projectItem.company}
+            link={projectItem.link}
+            date={projectItem.date}
+            locationlink={projectItem.locationlink}
+            location={projectItem.location}
+            description={
+              <div className="justify">
+                <List bulleted>
+                  {projectItem.header.map((header, i) => (
+                    <List.Item
+                      key={`${i}-header`}
+                      style={{ fontWeight: "600" }}
+                    >
+                      {header}
+                      <List.List>
+                        <List.Item
+                          key={`${i}-description`}
+                          style={{ fontWeight: "normal" }}
+                        >
+                          {projectItem.description[i]}
+                        </List.Item>
+                      </List.List>
+                    </List.Item>
+                  ))}
+                </List>
+              </div>
+            }
+          />
+        ))}
+
+        {/* <WorkItem
           title="Computer Science Student"
           company="University of Milan - Bicocca"
           link="https://www.unimib.it/"
-          date={
-            <div>
-              September 2020 -
-              <span style={{ fontWeight: "600" }}> Present</span>
-            </div>
-          }
+          date="September 2020 - Present"
           locationlink="https://www.google.com/maps/place/Milan,+Italy"
           location="Milan, MI"
           description={
@@ -53,11 +83,7 @@ function Projects() {
           title="Front-End Developer"
           company="Frontend Mentor"
           link="https://www.frontendmentor.io/profile/yangxdev"
-          date={
-            <div>
-              April 2020 -<span style={{ fontWeight: "600" }}> Present</span>
-            </div>
-          }
+          date="April 2020 - Present"
           locationlink="https://www.google.com/maps/place/Milan,+Italy"
           location="Rimini, RN & Milan, MI"
           description={
@@ -118,7 +144,7 @@ function Projects() {
               </List>
             </div>
           }
-        />
+        /> */}
       </div>
     </div>
   );
