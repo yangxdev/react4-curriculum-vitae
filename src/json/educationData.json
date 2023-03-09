@@ -1,0 +1,28 @@
+[
+  {
+    "degree": "Bachelor of Science",
+    "field": "Computer Science",
+    "link": "https://www.unimib.it/",
+    "school": "University of Milan - Bicocca",
+    "date": "September 2020 - October 2023",
+    "locationlink": "https://www.google.com/maps/place/Milan,+Italy",
+    "location": "Milan, MI",
+    "courses": [
+      "Mobile Devices Programming",
+      "Networks and Operative Systems",
+      "Algorithms and Data Structures",
+      "Programming Languages",
+      "Databases"
+    ]
+  },
+  {
+    "degree": "Information Technology Diploma",
+    "field": "",
+    "link": "https://www.ittsrimini.edu.it/",
+    "school": "ITTS Belluzzi - Da Vinci",
+    "date": "Sept. 2015 - June 2020",
+    "locationlink": "https://www.google.com/maps/place/Rimini,+Italy",
+    "location": "Rimini, RN",
+    "courses": ["Web Technology", "Computer Networking"]
+  }
+]
